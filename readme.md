@@ -31,10 +31,8 @@ this API was implemented following the LinkApiTest.pdf file.
 `Node JS`<br/>
 `Inversify`<br/>
 `Express`<br/>
-`OAuth`<br/>
 `reflect-metadata`<br/>
-`Docker`<br/>
-`MongoDB | Mongoose`
+`MongoDB | MongoDB Atlas`
 
 ## About me
 
