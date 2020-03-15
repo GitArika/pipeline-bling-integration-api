@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="LinkApi" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkapi.solutions%2F&psig=AOvVaw0CVkQTZMwRM6hQGSf3kD3y&ust=1584379729613000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiR1MuAnegCFQAAAAAdAAAAABAD" width="200px" />
+    <img alt="LinkApi" src="https://www.linkapi.solutions/uploads/2019/10/LinkApi-Logo-2019.png" width="200px" />
 </h1>
 
 <h3 align="center">
