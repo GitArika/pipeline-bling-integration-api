@@ -3,6 +3,7 @@ import { InversifyExpressServer } from 'inversify-express-utils';
 import * as bodyParser from 'body-parser';
 import * as helmet from 'helmet';
 import * as cors from 'cors';
+import * as mongoose from 'mongoose';
 
 // load all injectable entities.
 // the @provide() annotation will then automatically register them.
@@ -21,6 +22,15 @@ container.bind<BlingApi>(TYPES.BlingApi).to(BlingApi);
 container.bind<PipelineApi>(TYPES.PipelineApi).to(PipelineApi);
 // start the server
 let server = new InversifyExpressServer(container);
+
+mongoose.connect(
+  'mongodb+srv://linkapi:ho2AAk8a1aWeopFc@pipeline-bling-integration-db-8ertb.gcp.mongodb.net/test?retryWrites=true&w=majority',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    dbName: 'link-api-db',
+  }
+);
 
 server.setConfig(theApp => {
   theApp.use(
