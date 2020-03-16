@@ -34,12 +34,13 @@ this API was implemented following the LinkApiTest.pdf file.
 `reflect-metadata`<br/>
 `MongoDB | MongoDB Atlas`
 
+## How to use
+
+Run `npm start` for a dev server. Navigate to `http://localhost:8081/`.
+
+
 ## About me
 
 Im a fullstack web developer, you can see more and contact with LinkedIn:
 
 [Ariel Evangelista](https://www.linkedin.com/in/ariel-evangelista-a4677614b/). Hope you enjoy!
-
-## Development server
-
-Run `npm run dev` for a dev server. Navigate to `http://localhost:8081/`. The app will automatically reload if you change any of the source files.

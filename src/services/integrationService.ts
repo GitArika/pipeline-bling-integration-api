@@ -4,6 +4,7 @@ import { PipelineApi } from '../integration/pipelineApi';
 import TYPES from '../constant/types';
 import { BlingBuilder } from '../builder/blingBuilder';
 import { BlingApi } from '../integration/blingApi';
+import OpportunitiesDAO from '../dao/OpportunitiesDAO';
 
 @provide(TYPES.IntegrationService)
 export class IntegrationService {
@@ -14,9 +15,12 @@ export class IntegrationService {
 
   public async integrateWonOpportunitiesBling(): Promise<any> {
     const opportunities = await this.pipelineApi.findWonOpportunities();
-    const blingSolicitation = await this.createBlingSolicitation(opportunities);
 
-    return blingSolicitation;
+    await OpportunitiesDAO.saveOpportunities(opportunities);
+
+    //const blingSolicitation = await this.createBlingSolicitation(opportunities);
+
+    return opportunities;
   }
 
   public async createBlingSolicitation(opportunities: any) {
