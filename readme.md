@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="LinkApi" src="https://www.linkapi.solutions/uploads/2019/10/LinkApi-Logo-2019.png" width="200px" />
+    <img alt="LinkApi" src="https://media.glassdoor.com/sqll/2469862/linkapi-squarelogo-1552545271182.png" width="200px" />
 </h1>
 
 <h3 align="center">
@@ -37,7 +37,6 @@ this API was implemented following the LinkApiTest.pdf file.
 ## How to use
 
 Run `npm start` for a dev server. Navigate to `http://localhost:8081/`.
-
 
 ## About me
 
