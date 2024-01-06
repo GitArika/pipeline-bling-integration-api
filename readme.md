@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-licença">License</a>
 </p>
 
 ## About
