@@ -1,12 +1,4 @@
-<h1 align="center">
-    <img alt="LinkApi" src="https://media.glassdoor.com/sqll/2469862/linkapi-squarelogo-1552545271182.png" width="200px" />
-</h1>
-
-<h3 align="center">
-  LinkApi Back-end test
-</h3>
-
-<blockquote align="center">API developed for back-end LinkApi selective process</blockquote>
+# API developed for bling pipeline
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/GitArika/pipeline-bling-integration-api?color=%2304D361">
@@ -24,7 +16,7 @@
 
 ## About
 
-this API was implemented following the LinkApiTest.pdf file.
+this API was implemented following the integration document in this repository.
 
 ## technologies used
 
